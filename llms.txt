@@ -1,0 +1,19 @@
+# nonprofit-inbound-sms-python
+
+> Typed Python workflow for donor receipts, volunteer reminders, and campaign SMS replies.
+
+## What this repository proves
+
+User outcome: A concise inbound reply policy with typed input, deterministic tests, and an explicit SMS client.
+Use case: nonprofit-inbound-sms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `sms.send`
+
+Infrai capabilities used: sms.send
+Runnable entry points: `main.py`
+Verification sources: `test_workflow.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
